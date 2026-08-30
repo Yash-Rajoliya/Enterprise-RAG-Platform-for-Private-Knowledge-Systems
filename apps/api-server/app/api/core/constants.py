@@ -1,0 +1,3 @@
+API_V1 = "/api/v1"
+
+DEFAULT_TIMEOUT = 30
