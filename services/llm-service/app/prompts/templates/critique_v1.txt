@@ -1,0 +1,8 @@
+Critique answer quality.
+
+Check:
+
+- factual correctness
+- retrieval grounding
+- hallucination risk
+- confidence score
