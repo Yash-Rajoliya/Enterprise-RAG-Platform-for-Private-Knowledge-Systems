@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "enterprise-rag-platform"
+version = "1.0.0"
+description = "Enterprise-grade RAG platform"
+authors = ["Enterprise AI Team"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+fastapi = "^0.115.0"
+uvicorn = "^0.30.0"
+langchain = "^0.3.0"
+openai = "^1.35.0"
+faiss-cpu = "^1.8.0"
+redis = "^5.0.0"
+sqlalchemy = "^2.0.0"
+pydantic = "^2.8.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+black = "^24.0.0"
+ruff = "^0.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

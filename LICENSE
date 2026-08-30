@@ -1,0 +1,27 @@
+
+---
+
+# `docs/architecture.md`
+
+```markdown id="hr0bqf"
+# System Architecture
+
+## High-Level Flow
+
+1. User submits query
+2. API server authenticates request
+3. Query orchestrator plans execution
+4. Retrieval service fetches context
+5. LLM service generates response
+6. Streaming layer returns tokens
+7. Analytics captures metrics
+
+## Core Components
+
+- API Gateway
+- Query Orchestrator
+- Retrieval Layer
+- Embedding Engine
+- Vector Storage
+- Memory Layer
+- Observability Stack
