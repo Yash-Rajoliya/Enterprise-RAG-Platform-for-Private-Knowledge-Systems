@@ -1,0 +1,10 @@
+{
+ "name":"web-client",
+ "dependencies":{
+  "react":"^18",
+  "react-dom":"^18",
+  "react-router-dom":"^6",
+  "axios":"^1",
+  "zustand":"^4"
+ }
+}
