@@ -1,0 +1,9 @@
+name: Repository Lint
+
+on:
+  pull_request:
+
+jobs:
+
+  lint:
+    uses: ./.github/workflows/reusable-lint.yml
