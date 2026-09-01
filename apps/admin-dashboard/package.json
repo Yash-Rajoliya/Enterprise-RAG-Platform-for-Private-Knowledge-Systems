@@ -1,0 +1,9 @@
+{
+ "name":"admin-dashboard",
+ "dependencies":{
+  "react":"^18",
+  "react-dom":"^18",
+  "zustand":"^4",
+  "axios":"^1"
+ }
+}
