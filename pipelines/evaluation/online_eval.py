@@ -20,5 +20,5 @@ class OnlineEvaluator:
             user_feedback,
 
             "healthy":
-            latency < 3
+            latency < 3 and user_feedback > 0
         }
